@@ -1,0 +1,16 @@
+.page {
+    display: grid;
+    grid-template-columns: 20vw auto;
+  }
+  
+  .sidebar {
+    position: fixed;
+    width: 20vw;
+    height: 100vh;
+    background: grey;
+  }
+  
+  .main {
+    grid-column-start: 2;
+    background: pink;
+  }
