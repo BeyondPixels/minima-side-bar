@@ -1,16 +1,18 @@
 .page {
     display: grid;
     grid-template-columns: 20vw auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
   }
   
   .sidebar {
     position: fixed;
     width: 20vw;
     height: 100vh;
-    background: grey;
+    //background: grey;
   }
   
   .main {
     grid-column-start: 2;
-    background: pink;
+    //background: pink;
   }
