@@ -1,7 +1,7 @@
 //https://codepen.io/chriscoyier/pen/gGNLJY
 .post-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
   a {
@@ -50,5 +50,11 @@
     background-color: #FAFAFA;
     color: #9E9E9E;
     padding: .5em;
+  }
+}
+
+@media (min-width: 760px) {
+  .post-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
