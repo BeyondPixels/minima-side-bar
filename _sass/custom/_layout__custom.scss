@@ -3,7 +3,9 @@
   }
   
   .sidebar {
-    //padding-left: 1em;
+    .site-title {
+      padding-left: .5em;
+    }
   }
   
   .main {
@@ -29,7 +31,7 @@
     width: 20vw;
     height: 100vh;
     //padding-left: 1em;
-    .site-title, .site-nav {
+    .site-nav {
       padding-left: 1em;
     }
   }
