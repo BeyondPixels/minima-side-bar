@@ -3,7 +3,7 @@
   }
   
   .sidebar {
-    padding-left: 1em;
+    //padding-left: 1em;
   }
   
   .main {
@@ -28,7 +28,10 @@
     position: fixed;
     width: 20vw;
     height: 100vh;
-    padding-left: 1em;
+    //padding-left: 1em;
+    a, nav {
+      padding-left: 1em;
+    }
   }
   .main {
     grid-column-start: 2;
