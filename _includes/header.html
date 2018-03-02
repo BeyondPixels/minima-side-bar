@@ -3,7 +3,7 @@
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title mobile only" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     <div>
-    <img src="/assets/logo.png" alt="" class="mobile hidden">
+    <a href="/"><img src="/assets/logo.png" alt="" class="mobile hidden"></a>
     {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
