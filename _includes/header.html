@@ -2,6 +2,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title mobile only" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div>
     <img src="/assets/logo.png" alt="" class="mobile hidden">
     {% if page_paths %}
       <nav class="site-nav">
@@ -26,5 +27,6 @@
         </div>
       </nav>
     {% endif %}
+    </div>
     <span class="rights_social mobile hidden">{% if site.author %}© {{ site.author }}{% endif %}{% if site.instagram_username %} <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>{% endif %}{% if site.twitter_username%} <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> </a></li>{% endif %}</span>
   
