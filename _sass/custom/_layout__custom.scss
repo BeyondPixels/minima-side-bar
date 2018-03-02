@@ -23,9 +23,16 @@
     position: fixed;
     width: 20vw;
     height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 10vh;
+    grid-row-gap: 1em;
     //padding-left: 1em;
     .site-nav {
       padding-left: 1em;
+    }
+    .rights_social {
+      text-align: center;
+      margin: auto 0;
     }
   }
   .main {
