@@ -6,6 +6,16 @@
     .site-title {
       padding-left: .5em;
     }
+    .site-nav {
+      .page-link {
+        margin-right: 0;
+        line-height: 2;
+      }
+      .nav-this {
+        background-color: #E0F7FA;
+        border-right: 3px solid #00BCD4;
+      }
+    }
   }
   
   .main {
@@ -29,13 +39,6 @@
     //padding-left: 1em;
     .site-nav {
       padding-left: 1em;
-      .page-link {
-        margin-right: 0;
-      }
-      .nav-this {
-        background-color: aliceblue;
-        border-right: 3px solid aqua;
-      }
     }
     .rights_social {
       text-align: center;
