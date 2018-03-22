@@ -1,7 +1,9 @@
 .page {
     display: grid;
   }
-  
+  .prev, .next {
+    padding-bottom: 3em;
+  }
   .sidebar {
     .site-title {
       padding-left: .5em;
