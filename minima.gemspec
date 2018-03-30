@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "minima-side_bar"
+  spec.name          = "minima-sidebar"
   spec.version       = "0.1.0"
   spec.authors       = ["Ulises Rojas"]
   spec.email         = ["git@beyondpixels.studio"]
