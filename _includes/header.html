@@ -29,6 +29,6 @@
     {% endif %}
     </div>
     <div class="rights_social mobile hidden">
-    <span>{% if site.instagram_username %} <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>{% endif %}{% if site.twitter_username%} <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> </a>{% endif %}</span>
+    <span>{% if site.instagram_username %} <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>{% endif %}{% if site.twitter_username%} <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> </a>{% endif %}</span>
     <span>{% if site.author %}{{ site.author }}{% endif %}</span>
   </div>
